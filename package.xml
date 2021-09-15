@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+  <name>migrave_ros_msgs</name>
+  <version>1.0.0</version>
+  <description>ROS messages used in MigrAVE</description>
+
+  <author email="aleksandar.mitrevski@h-brs.de">Alex Mitrevski</author>
+  <author email="mohammad.wasil@h-brs.de">Mohammad Wasil</author>
+  <author email="michal.stolarz@smail.inf.h-brs.de">Michal Stolarz</author>
+
+  <maintainer email="aleksandar.mitrevski@h-brs.de">Alex Mitrevski</maintainer>
+  <maintainer email="mohammad.wasil@h-brs.de">Mohammad Wasil</maintainer>
+  <maintainer email="michal.stolarz@smail.inf.h-brs.de">Michal Stolarz</maintainer>
+
+  <license>GPLv3</license>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>vision_msgs</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>vision_msgs</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export></export>
+</package>
