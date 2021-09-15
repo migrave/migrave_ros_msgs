@@ -1,0 +1,3 @@
+string game_id
+string game_activity_id
+int8 difficulty_level
