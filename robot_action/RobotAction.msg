@@ -1,0 +1,23 @@
+# action_id constants
+string SELF_INTRODUCE=self_introduce
+string GREET=greet
+string SAY_GOODBYE=say_goodbye
+string TELL_JOKE=tell_joke
+string GIVE_FEEDBACK=give_feedback
+string ASK_PERSON_FOR_HELP=ask_person_for_help
+string ASK_THERAPIST_FOR_HELP=ask_therapist_for_help
+string ASK_FOR_ATTENTION=ask_for_attention
+string RELAX_PERSON=relax_person
+string HIGH_FIVE=high_five
+string PLAY_SONG_AND_DANCE=play_song_and_dance
+string EXPRESS_FEELING=express_feeling
+string RESET_SITUATION=reset_situation
+string PERCEIVE_TABLE=perceive_table
+
+time stamp
+string action_id
+string action_name
+
+string sentence
+string gesture_type
+string face_expression
