@@ -4,8 +4,10 @@ std_msgs/Header header
 
 float64 detection_confidence
 
-geometry_msgs/Vector3 left_gaze
-geometry_msgs/Vector3 right_gaze
+geometry_msgs/Pose left_gaze
+geometry_msgs/Pose right_gaze
+
+geometry_msgs/Vector3 gaze_angle
 
 geometry_msgs/Pose head_pose
 
