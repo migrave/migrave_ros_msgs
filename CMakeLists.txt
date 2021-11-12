@@ -36,6 +36,7 @@ add_message_files(
    Activity.msg
    AudioFeatures.msg
    Face.msg
+   Faces.msg
    FaceActionUnit.msg
    SoundDirection.msg
 )
