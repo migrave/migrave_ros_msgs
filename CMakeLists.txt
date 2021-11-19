@@ -39,6 +39,9 @@ add_message_files(
    Faces.msg
    FaceActionUnit.msg
    SoundDirection.msg
+   BodyPart.msg
+   Skeleton.msg
+   Skeletons.msg
 )
 
 add_message_files(
