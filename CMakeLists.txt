@@ -23,6 +23,7 @@ add_message_files(
    FILES
    Component.msg
    ComponentState.msg
+   Event.msg
 )
 
 add_message_files(
