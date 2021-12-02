@@ -15,3 +15,5 @@ geometry_msgs/Point[] landmarks_3d
 geometry_msgs/Point[] landmarks_2d
 
 FaceActionUnit[] action_units
+
+sensor_msgs/Image debug_image
