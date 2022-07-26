@@ -66,11 +66,11 @@ add_message_files(
    RobotAction.msg
 )
 
-#add_action_files(
-#  DIRECTORY action
-#  FILES
-#
-#)
+add_action_files(
+  DIRECTORY actionlib
+  FILES
+  GetAverageEngagement.action
+)
 
 #add_service_files(
 #  DIRECTORY srv
