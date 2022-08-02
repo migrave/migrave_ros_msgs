@@ -66,6 +66,12 @@ add_message_files(
    RobotAction.msg
 )
 
+add_message_files(
+   DIRECTORY games
+   FILES
+   UIActivityParameters.msg
+)
+
 add_action_files(
   DIRECTORY actionlib
   FILES
