@@ -72,6 +72,12 @@ add_message_files(
    UIActivityParameters.msg
 )
 
+add_message_files(
+   DIRECTORY communication
+   FILES
+   StampedString.msg
+)
+
 add_action_files(
   DIRECTORY actionlib
   FILES
