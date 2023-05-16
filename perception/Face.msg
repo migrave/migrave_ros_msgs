@@ -2,6 +2,8 @@
 
 std_msgs/Header header
 
+string camera_name
+
 float64 detection_confidence
 
 geometry_msgs/Pose left_gaze
